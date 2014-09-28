@@ -1,0 +1,61 @@
+
+
+@font-face{font-family:'opendyslexic';src:url('http://opendyslexic.org/fonts/opendyslexic-italic.eot');font-weight:400;font-style:normal}
+
+@font-face{font-family:'opendyslexic';src:url('http://opendyslexic.org/fonts/opendyslexic-regular.ttf') format('truetype'),url('http://opendyslexic.org/fonts/opendyslexic-regular.svg#opendyslexicregular') format("svg");font-weight:400;font-style:normal}
+
+
+body {
+    background-color:rgb(255, 255, 255);
+}
+* {
+   font-family: opendyslexic;    
+    color: white;
+}
+h1,h2,p,label {
+    text-align: center;
+color: rgb(55, 56, 56);
+    font-weight: lighter;
+}
+#middle {
+    width: 150px;
+    height: auto;
+}
+#settings{
+
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    list-style: none;
+    padding: 0px;
+    border: 0px;
+}
+button {
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+       width: 100%;
+    background-color: rgb(64, 150, 68);
+}
+button:hover {
+    background-color: rgba(230, 126, 34,1.0);
+    padding: 5px;
+}
+li {
+    margin-bottom: 30px;
+    line-height: 25px;
+    width: 120px;
+    height: 25px;
+    color: #e74c3c;
+    list-style: none;
+    padding: 0px;
+    border: none;
+}

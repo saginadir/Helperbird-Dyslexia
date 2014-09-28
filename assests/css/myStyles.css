@@ -1,0 +1,16 @@
+
+*{
+    font-family: opendyslexic;    
+}
+
+
+
+
+@font-face{font-family:'opendyslexic';src:url('http://opendyslexic.org/fonts/opendyslexic-italic.eot');font-weight:400;font-style:normal}
+
+@font-face{font-family:'opendyslexic';src:url('http://opendyslexic.org/fonts/opendyslexic-regular.ttf') format('truetype'),url('http://opendyslexic.org/fonts/opendyslexic-regular.svg#opendyslexicregular') format("svg");font-weight:400;font-style:normal}
+
+
+*,p,a,h1,h2,h3,h4,h5,input,li,ul,strong{
+    font-family: opendyslexic;    
+}
