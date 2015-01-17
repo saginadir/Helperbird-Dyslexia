@@ -24,3 +24,21 @@ Built by a dyslexic programmer with love <3
 ![Screenshot 1](http://www.projectbird.com/uploads/6/0/3/3/603320/8356809.png "Screenshot 1")
 
 ![Screenshot 2](http://www.projectbird.com/uploads/6/0/3/3/603320/9364543_orig.png "Screenshot 2")
+
+
+
+
+Install
+--------------
+
+- Download the file locally.
+- Open up Google chrome
+- Go the Google Chrome Settings
+- Go to extensions
+- Click enable developer mode.
+- Load unpackaged extensions.
+- Pick the helper bird folder.
+
+
+
+
