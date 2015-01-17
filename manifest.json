@@ -1,28 +1,28 @@
 {
-  "name": "Dyslexia Bird",
-  "version": "1.0",
+  "name": "Helper bird",
+  "version": "2.0",
   "manifest_version": 2,
   "description": "This Little birdie is here to help to improve people with dyslexia.",
  
     
   "browser_action": {
-        "default_icon": "assests/img/bird_red.png",
+        "default_icon": "assests/img/logo/bird_red.png",
         "default_popup": "options.html"
   },
       "icons": {
-    "128": "assests/img/bird_red.png"
+    "128": "assests/img/logo/bird_red.png"
   },
-  "permissions": ["tabs","storage", "http://*/*", "https://*/*", "file:///*/*"],
+  "permissions": ["tabs","storage", "http://*/*", "https://*/*"],
     
     
     "content_scripts": [
     {
         "matches": [ "http://*/*", "https://*/*", "file:///*/*"],
-        "js": ["assests/javascript/myScript.js"],       
+        "js": ["assests/js/myScript.js"],       
         "all_frames": true
     }
   ],
-  "web_accessible_resources": ["assests/css/myStyles.css"]
+  "web_accessible_resources": ["assests/css/bootstrap/*.css","assests/css/myStyles.css","assests/css/fonts/*","assests/js/*.js"]
 }
 
 
