@@ -1,8 +1,8 @@
 {
   "name": "Helper bird",
-  "version": "2.0",
+  "version": "2.1",
   "manifest_version": 2,
-  "description": "This Little birdie is here to help to improve people with dyslexia.",
+  "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
  
     
   "browser_action": {

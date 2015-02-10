@@ -2,16 +2,11 @@
 
 @font-face{font-family:'opendyslexic';src:url('fonts/opendyslexic-regular.ttf') format('truetype'),url('fonts/opendyslexic-regular.svg') format("svg");font-weight:400;font-style:normal}
 
-
 *{
 
     font-family: opendyslexic;    
 
 }
-
-
-
-
 
 *,p,a,h1,h2,h3,h4,h5,input,li,ul,strong{
 
