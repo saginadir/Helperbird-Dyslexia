@@ -1,3 +1,4 @@
+var chrome,elem,code,style;
 logoSwitch();
 
 
@@ -5,9 +6,10 @@ function logoSwitch() {
    
     chrome.storage.sync.get({
         likesColor: true
-    }, function (items) {
+        }, 
+    function (items) {
 
-        if (items.likesColor == true) {
+        if (items.likesColor === true) {
             on();
         } else {
             off();
@@ -19,28 +21,28 @@ function logoSwitch() {
 
 
 function off() {
-    
-    var elem = document.getElementById("Birdy");
+    elem = '';
+    elem = document.getElementById("Birdy");
     elem.parentNode.removeChild(elem);
     (document.head || document.documentElement).removeChild(elem);
     reload();
-    
 }
 
 
 
 function reload() {
+    code = '';
     chrome.tabs.getSelected(null, function (tab) {
-        var code = 'window.location.reload();';
+        code = 'window.location.reload();';
         chrome.tabs.executeScript(tab.id, {
-            code: code
+            code : code
         });
     });
-
 }
 
 function on() {
- var style = document.createElement('link');
+    style = '';
+    style = document.createElement('link');
     style.rel = 'stylesheet';
     style.type = 'text/css';
     style.setAttribute("id", "Birdy");
