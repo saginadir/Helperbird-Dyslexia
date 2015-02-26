@@ -1,47 +1,39 @@
 var chrome,elem,code,style;
-logoSwitch();
 
 
-function logoSwitch() {
+
+
+checkStatus(); // Check if the check box is set.
+
+
+function checkStatus() {
    
-    chrome.storage.sync.get({
-        likesColor: true
-        }, 
+    chrome.storage.sync.get({ booleans: true}
+        , 
     function (items) {
-
-        if (items.likesColor === true) {
-            on();
+        if (items.booleans === true) {
+            turnOnHelperBird() 
         } else {
-            off();
+            turnOffHelperBird();
         }
     });
+    
     document.addEventListener('DOMContentLoaded', restore_options);
 }
 
 
 
-function off() {
-    elem = '';
+function turnOffHelperBird() {
+
     elem = document.getElementById("Birdy");
     elem.parentNode.removeChild(elem);
     (document.head || document.documentElement).removeChild(elem);
-    reload();
+    reloadPage();
 }
 
 
+function turnOnHelperBird() {
 
-function reload() {
-    code = '';
-    chrome.tabs.getSelected(null, function (tab) {
-        code = 'window.location.reload();';
-        chrome.tabs.executeScript(tab.id, {
-            code : code
-        });
-    });
-}
-
-function on() {
-    style = '';
     style = document.createElement('link');
     style.rel = 'stylesheet';
     style.type = 'text/css';
@@ -50,3 +42,17 @@ function on() {
     (document.head || document.documentElement).appendChild(style);
 
 }
+
+
+
+
+function reloadPage() {
+
+    chrome.tabs.getSelected(null, function (tab) {
+        code = 'window.location.reload();';
+        chrome.tabs.executeScript(tab.id, {
+            code : code
+        });
+    });
+}
+
