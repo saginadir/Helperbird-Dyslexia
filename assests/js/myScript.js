@@ -7,7 +7,7 @@ checkStatus(); // Check if the check box is set.
 
 
 function checkStatus() {
-   
+   chrome.fontSettings.setDefaultFontSize(24, function callback);
     chrome.storage.sync.get({ booleans: true}
         , 
     function (items) {

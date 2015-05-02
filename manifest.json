@@ -13,7 +13,7 @@
     "128": "assests/img/logo/bird_red.png"
   },
 
-  "permissions": ["tabs","storage", "http://*/*", "https://*/*"],
+  "permissions": ["tabs","storage", "http://*/*", "https://*/*","fontSettings"],
     
     
     "content_scripts": [
