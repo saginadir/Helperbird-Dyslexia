@@ -13,8 +13,11 @@ function checkStatus() {
     function (items) {
         if (items.booleans === true) {
             turnOnHelperBird() 
+            document.getElementById('like').checked = '1';
         } else {
             turnOffHelperBird();
+            document.getElementById('like').checked = '0';
+
         }
     });
     

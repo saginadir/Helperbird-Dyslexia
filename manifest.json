@@ -20,7 +20,6 @@
     {
         "matches": [ "http://*/*", "https://*/*", "file:///*/*"],
         "js": ["assests/js/myScript.js"],
-        "js": ["assests/js/tracking.js"],       
         "all_frames": true
     }
   ],
