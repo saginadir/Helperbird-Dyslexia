@@ -7,14 +7,17 @@ checkStatus(); // Check if the check box is set.
 
 
 function checkStatus() {
-   
+   chrome.fontSettings.setDefaultFontSize(24, function callback);
     chrome.storage.sync.get({ booleans: true}
         , 
     function (items) {
         if (items.booleans === true) {
             turnOnHelperBird() 
+            document.getElementById('like').checked = '1';
         } else {
             turnOffHelperBird();
+            document.getElementById('like').checked = '0';
+
         }
     });
     

@@ -1,36 +1,50 @@
-<!DOCTYPE html>
 <html>
-<head>
-    
-    <title>Helperbird : Options</title>
-    <link rel="stylesheet" type="text/css" href="assests/css/masterStyle.css">
-    <link rel="stylesheet" type="text/css" href="assests/css/bootstrap/bootstrap-theme.css">
-    <link rel="stylesheet" type="text/css" href="assests/css/bootstrap/bootstrap-theme.min.css"
-    <script src="assests/js/bootstrap.js"></script>    
+    <head>
+        <title>Helper Bird </title>
+        <link href="assests/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="assests/css/roboto.min.css" rel="stylesheet">
+        <link href="assests/css/material.min.css" rel="stylesheet">
+        <link href="assests/css/ripples.min.css" rel="stylesheet">
+        <link href="assests/css/sepc.css" rel="stylesheet">
+    </head>
 
-</head>
-
-<body>
-    <div class="container">
-        <div class="starter-template">
+    <body>
+        
+        <div class="header-panel shadow-z-1" style="background-color:#00BCD4">
+          <div class="container-fluid">
             <div class="row">
-            <h1>Helperbird</h1>
-                <p class="lead">You can now turn On or Off helperbird by clicking the switch below.</p>
-                
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" id="like"> On / Off
-                    </label>
-                </div>
-                  <div id="status"></div>
-                    <button type="button" class="btn btn-primary btn-lg" id="save">Save</button>
+              <div class="col-xs-3">
+                <h1 style="color:white">Helper Bird</h1>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+        
+        <div class="container-fluid main">
+            <br/>
+            <p class="text-muted">Change Font</p>
+            
+            <div class="togglebutton">
+                <label id="stat"><input type="checkbox" id="like" checked="" > On/Off</label>
+            </div>
+            <br/>    <br/>
+            <p class="text-muted">Change Font Size</p>
+            <input type="number"  id="size" class="form-control floating-label" placeholder="font px" min="1" max="99">
+                <br/>    <br/>
+            <button type="button" class="btn btn-info btn-lg" id="save">Save</button>
+          
+        </div>
 
-    <script src="assests/js/jquery.min.js"></script>
-    <script src="assests/js/bootstrap.min.js"></script>
-    <script src="assests/js/options.js"></script>
-</body>
-
+        <script src="assests/js/jquery.min.js"></script>
+        <script src="assests/js/bootstrap.min.js"></script>
+        <script src="assests/js/ripples.min.js"></script>    
+        <script src="assests/js/material.js"></script>
+        <script src="assests/js/start.js"></script>
+        <script src="assests/js/options.js"></script>
+    </body>
 </html>
+
+
+
+
