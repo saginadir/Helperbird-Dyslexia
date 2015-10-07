@@ -3,14 +3,12 @@
   "version": "2.1",
   "manifest_version": 2,
   "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
-    
   "browser_action": {
-        "default_icon": "assests/img/logo/bird_red.png",
-        "default_popup": "options.html"
+        "default_icon": "assets/img/logo/bird_red.png",
+        "default_popup": "index.html"
   },
       "icons": {
-    "128": "assests/img/logo/bird_red.png"
+    "128": "assets/img/logo/bird_red.png"
   },
 
   "permissions": ["tabs","storage", "http://*/*", "https://*/*","fontSettings"],
@@ -19,11 +17,11 @@
     "content_scripts": [
     {
         "matches": [ "http://*/*", "https://*/*", "file:///*/*"],
-        "js": ["assests/js/myScript.js"],
+        "js": ["assets/js/myScript.js"],
         "all_frames": true
     }
   ],
-  "web_accessible_resources": ["assests/css/bootstrap/*.css","assests/css/myStyles.css","assests/css/fonts/*","assests/js/*.js"]
+  "web_accessible_resources": ["assets/css/bootstrap/*.css","assets/css/myStyles.css","assets/css/fonts/*","assets/js/*.js"]
 }
 
 

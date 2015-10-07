@@ -4,12 +4,12 @@
 
 *{
 
-    font-family: opendyslexic;    
+    font-family: opendyslexic !important;    
 
 }
 
 *,p,a,h1,h2,h3,h4,h5,input,li,ul,strong{
 
-    font-family: opendyslexic;    
+    font-family: opendyslexic !important;    
 
 }
