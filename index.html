@@ -2,7 +2,6 @@
     <head>
         <title>Helper Bird </title>
         <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet">
-        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
         <link href="assets/css/roboto.min.css" rel="stylesheet">
         <link href="assets/css/material.min.css" rel="stylesheet">
         <link href="assets/css/ripples.min.css" rel="stylesheet">
@@ -10,29 +9,25 @@
     </head>
 
     <body>
-        
         <div class="header-panel shadow-z-1" style="background-color:#00BCD4">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-xs-3">
-                <h1 style="color:white">Helper Bird</h1>
+              <div class="col-xs-12">
+                <h4 style="color:white">Helper Bird</h4>
               </div>
             </div>
           </div>
         </div>
         
         <div class="container-fluid main">
+            <p id="status"></p>
             <br/>
             <p class="text-muted">Change Font</p>
-            
             <div class="togglebutton">
-                <label id="stat"><input type="checkbox" id="like" checked="0" > On/Off</label>
+                <label id="stat"><input type="checkbox" id="like" checked="0" > off/on</label>
             </div>
-            <br/>    <br/>
-            <p class="text-muted">Change Font Size</p>
-            <input type="number"  id="size" class="form-control floating-label" placeholder="font px" min="1" max="99">
-                <br/>    <br/>
-            <button type="button" class="btn btn-info btn-lg" id="save">Save</button>
+            <br/>    
+            <br/>
           
         </div>
 

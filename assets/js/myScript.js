@@ -6,7 +6,7 @@ var helperBird= {
     }
 };
 
-
+helperBird.Init();
 
 
 function checkStatus() {
