@@ -1,7 +1,8 @@
 Helperbird
 ==========
 
-Helper Bird is a Google Chrome add-on that changes the font and style of the website to help with dyslexia by making it easier to read.
+Helperbird is an extension that overrides all fonts on webpage with the award winning OpenDyslexic font and  changes the page to be more easily read. You can switch it on and off at any time. Helping people with dyslexia.
+
 
 
 Features
