@@ -1,4 +1,4 @@
-Helperbird
+Helper bird : OpenDyslexic Font
 ==========
 
 Helperbird is an extension that overrides all fonts on webpage with the award winning OpenDyslexic font and  changes the page to be more easily read. You can switch it on and off at any time. Helping people with dyslexia.
