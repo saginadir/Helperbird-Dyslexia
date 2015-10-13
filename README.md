@@ -39,6 +39,5 @@ Install
 Screen Shots
 -------------
 
-![Screenshot 1](http://www.projectbird.com/uploads/6/0/3/3/603320/8356809.png "Screenshot 1")
 
-![Screenshot 2](http://www.projectbird.com/uploads/6/0/3/3/603320/9364543_orig.png "Screenshot 2")
+![Screenshot 2](https://lh3.googleusercontent.com/3lSF96V4g7D5CrISOLZZveJp1lm41iUjNSeVGAwYJ5EYcs8vI6m8fRAsRSK-2h155Iwu9F-e=s1280-h800-e365-rw "Screenshot 2")
