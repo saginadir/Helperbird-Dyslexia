@@ -13,12 +13,12 @@ body {
 }
 
 #pick_colors>li>.colors {
-	border-radius: 5px;
+	border-radius: 2px;
 	cursor: pointer;
 	float: left;
-	height: 35px;
-	margin: 10px;
-	width: 35px
+	height: 25px;
+	margin: 5px;
+	width: 23px
 }
 
 #color_Red {
