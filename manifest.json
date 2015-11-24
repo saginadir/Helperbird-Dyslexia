@@ -1,29 +1,25 @@
 {
-  "name": "Helper bird",
-  "version": "2.1",
-  "manifest_version": 2,
-  "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
-  "browser_action": {
+    "name": "Helper bird",
+    "version": "2.1",
+    "manifest_version": 2,
+    "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
+    "browser_action": {
         "default_icon": "assets/img/logo/bird_red.png",
         "default_popup": "index.html"
-  },
-      "icons": {
-    "128": "assets/img/logo/bird_red.png"
-  },
+    },
+    "icons": {
+        "128": "assets/img/logo/bird_red.png"
+    },
 
-  "permissions": ["tabs","storage", "http://*/*", "https://*/*","fontSettings"],
-    
-    
+    "permissions": ["tabs", "storage", "http://*/*", "https://*/*", "fontSettings"],
+
+
     "content_scripts": [
-    {
-        "matches": [ "http://*/*", "https://*/*", "file:///*/*"],
-        "js": ["assets/js/myScript.js"],
-        "all_frames": true
+        {
+            "matches": ["http://*/*", "https://*/*", "file:///*/*"],
+            "js": ["assets/js/core.js"],
+            "all_frames": true
     }
   ],
-  "web_accessible_resources": ["assets/css/bootstrap/*.css","assets/css/myStyles.css","assets/css/fonts/*","assets/js/*.js"]
+    "web_accessible_resources": ["assets/css/bootstrap/*.css", "assets/css/myStyles.css", "assets/css/fonts/*", "assets/js/*.js"]
 }
-
-
-
-

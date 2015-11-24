@@ -1,51 +1,42 @@
 body {
-  width: 200px !important;
-  height: 10px !important;
-  padding:0 !important;
-  margin: 0 !important;
+    width: 200px !important;
+    height: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
-
 #pick_colors {
-	height: 100%;
-	list-style: none;
-	padding: 0;
-	width: 100%
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    width: 100%
 }
-
 #pick_colors>li>.colors {
-	border-radius: 2px;
-	cursor: pointer;
-	float: left;
-	height: 25px;
-	margin: 5px;
-	width: 23px
+    border-radius: 2px;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin: 5px;
+    width: 23px
 }
-
 #color_Red {
-	background-color: #F44336
+    background-color: #F44336
 }
-
 #color_Blue {
-	background-color: #03A9F4
+    background-color: #03A9F4
 }
-
 #color_Green {
-	background-color: #4CAF50
+    background-color: #4CAF50
 }
-
 #color_Brown {
-	background-color: #795548
+    background-color: #795548
 }
-
-#color_Grey {
-	background-color: #9E9E9E
+#color_Black {
+    background-color: #000;
 }
-
 #specialId {
-	border-left: 2PX SOLID #03A9F8;
-	border-bottom: 2px solid #03A9F8
+    border-left: 2PX SOLID #03A9F8;
+    border-bottom: 2px solid #03A9F8
 }
-
 .settings_holder {
-	margin-bottom: 50px
+    margin-bottom: 50px
 }
