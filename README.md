@@ -1,23 +1,14 @@
-Helper bird : OpenDyslexic Font
-==========
 
-Helperbird is an extension that overrides all fonts on webpage with the award winning OpenDyslexic font and  changes the page to be more easily read. You can switch it on and off at any time. Helping people with dyslexia.
+HelperBird changes the font of the website to OpenDyslexic. You can switch it on and off. You can change the size of the font aswell.
+Helperbird is an extension that overrides all fonts on webpage with the award winning OpenDyslexic font and  changes the page to be more easily read. You can switch it on and off at any time. Helping people with dyslexia. You can now change the size of the font!.
 
+##Features 
+1. Changes the font on the web page to the award winning OpenDyslexic.
+3. Turn it on and Off at anytime.
+4. Change Font Size
 
-
-Features
---------------
-
-- Changes the font on the web page to the award winning OpenDyslexic.
-- Changes the background colour to make easier to read.
-
-
-Upcoming Features
------------------
-
--  Pick the colour of the fonts
--  Pick which font gets changed
--  Pick the size of the fonts
+##Upcoming features
+1. Pick the colour of the fonts
 
 
 Built by a dyslexic programmer with love <3
@@ -34,7 +25,7 @@ Install
 - Pick the helper bird folder.
 
 
-Honors:
+Honors
 --------------
 
 2619 daily users
