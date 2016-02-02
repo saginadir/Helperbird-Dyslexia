@@ -35,4 +35,4 @@ Screen Shots
 -------------
 
 
-![Screenshot 2](https://lh3.googleusercontent.com/3lSF96V4g7D5CrISOLZZveJp1lm41iUjNSeVGAwYJ5EYcs8vI6m8fRAsRSK-2h155Iwu9F-e=s1280-h800-e365-rw "Screenshot 2")
+![Screenshot 2](https://lh3.googleusercontent.com/esme1y-XvMYik4xrofET0nJOruIMqO607y0tKgatFqEKWV9vPqtGOcPkNHgju66-LFebVQFCsA=s640-h400-e365-rw "Screenshot 2")
