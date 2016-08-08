@@ -1,0 +1,17 @@
+{
+ "name": "Helperbird",
+ "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
+  "author": "Robert James Gabriel",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "*",
+       "gulp-logger": "*",
+       "gulp-rename": "*"
+
+  },
+  "engine": "node >= 0.4.1"
+}

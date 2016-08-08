@@ -1,74 +1,66 @@
 <html>
 
 <head>
-    <title>Helper Bird </title>
-    <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/roboto.min.css" rel="stylesheet">
-    <link href="assets/css/material.min.css" rel="stylesheet">
-    <link href="assets/css/ripples.min.css" rel="stylesheet">
-    <link href="assets/css/sepc.css" rel="stylesheet">
-    <script src="assets/js/angular.min.js"></script>
-    <script src="assets/js/angular/angular-chrome-storage.js"></script>
-    <script src="assets/js/angular/core.js"></script>
+  <title>Helper Bird </title>
+  <link href="assets/dist/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/dist/css/bootstrap/roboto.min.css" rel="stylesheet">
+  <link href="assets/dist/css/bootstrap/material.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/material-fullpalette.min.css" rel="stylesheet">
+  <link href="assets/dist/css/bootstrap/ripples.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap/default.min.css" rel="stylesheet">
+  <script src="assets/dist/js/angular.min.js"></script>
+  <script src="assets/js/angular-chrome-storage.js"></script>
+
+    <script src="assets/js/core-angular.js"></script>
 </head>
 
-<body ng-app="Robin" ng-controller="core" data-ng-init="init()">
-    <div class="header-panel shadow-z-1" style="background-color:#00BCD4">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h4 style="color:white">Helper Bird</h4>
-                </div>
-            </div>
+<body ng-app="helperbird" ng-controller="core" data-ng-init="init()">
+  <div class="header-panel shadow-z-1" style="background-color:#FF3D00;height: 55px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 style="color:white;color: white;line-height: 35px;font-size: 1.5em;">Helper Bird</h4>
         </div>
+      </div>
     </div>
+  </div>
 
-    <div class="container-fluid main">
+  <div class="container-fluid main" style="height: 100%;">
+       <div style="margin-bottom:25px;"></div>
+       <h6 class="subtitle">Options</h6>
+       <form class="form-horizontal">
+           <fieldset>
+               <div class="form-group">
+                   <div class="col-md-10">
+                       <label id="messageOpenDyslexic" class="col-md-2 control-label" style="margin-left: -10px;float:left;">off</label>
+                       <div class="togglebutton" style="float:right;">
+                           <label id="stat">
+                               <input type="checkbox" id="likeOpenDyslexic" ng-click="openDyslexic()" checked="0">
+                           </label>
+                       </div>
+                   </div>
+               </div>
+           </fieldset>
+       </form>
+   </div>
+   <footer style="border-top:1px solid rgba(0,0,0,0.06)">
+       <div class="container-fluid main">
+           <div class="row">
+               <div class="col-md-10">
+                   <p class="small" style="line-height: 27px;"> &copy; 2016 <a href="http://robertgabriel.ninja/helperbird.html" style="color:#666"target="_blank">Robert James Gabriel</a> </p>
+               </div>
 
-        <br/>
-        <h5 class="text-muted">OpenDyslexic</h5>
-        <div class="togglebutton">
-            <label id="stat">
-                <input type="checkbox" id="like" ng-click="openDyslexic()" checked="0"> off/on</label>
-        </div>
-        <br/>
-        <h5 class="text-muted">Font Size</h5>
-        <input type="number" id="number" class="form-control" min="12" max="86" ng-Keyup="changeNumber()">
+           </div>
+       </div>
+   </footer>
+  <script src="assets/dist/js/jquery.min.js"></script>
+  <script src="assets/dist/js/bootstrap.min.js"></script>
+  <script src="assets/dist/js/ripples.min.js"></script>
+  <script src="assets/dist/js/material.min.js"></script>
+  <script src="assets/dist/js/start.min.js"></script>
+  <script src="assets/dist/js/options.min.js"></script>
 
-
-<!--------
-        <div class="form-group">
-            <h5 class="text-muted">Font Color</h5>
-            <ul id="pick_colors">
-                <li><span class="colors" id="color_Red" ng-click="setColor('#F44336')"><span ng-if="theme[0][0]['color'] === '#F44336'"><i class="mdi-action-done"></i> </span></span>
-                </li>
-                <li><span class="colors" id="color_Blue" ng-click="setColor('#03A9F4')"><span ng-if="theme[0][0]['color'] === '#03A9F4'"><i class="mdi-action-done"></i> </span> </span>
-                </li>
-                <li><span class="colors" id="color_Green" ng-click="setColor('#009688')"> <span ng-if="theme[0][0]['color'] === '#009688'"><i class="mdi-action-done"></i> </span></span>
-                </li>
-                <li><span class="colors" id="color_Brown" ng-click="setColor('#795548')"> <span ng-if="theme[0][0]['color'] === '#795548'"><i class="mdi-action-done"></i> </span></span>
-                </li>
-                <li><span class="colors" id="color_Black" ng-click="setColor('#000')"> <span ng-if="theme[0][0]['color'] === '#9E9E9E'"><i class="mdi-action-done"></i> </span></span>
-                </li>
-            </ul>
-        </div>
-
--------->
-
-        <br/>
-        <br/>
-
-    </div>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/ripples.min.js"></script>
-    <script src="assets/js/material.js"></script>
-    <script src="assets/js/start.js"></script>
-
-    <script src="assets/js/options.js"></script>
-
-
+  <script src="assets/js/core-functions.js"></script>
 
 </body>
 
