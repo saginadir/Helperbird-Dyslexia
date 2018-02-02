@@ -1,39 +1,32 @@
-![alt text](https://github.com/Projectbird/Helperbird-Dyslexia/blob/master/assets/img/screens/banner.png "Robin")
-#About
-HelperBird changes the font of the website to OpenDyslexic. You can switch it on and off. You can change the size of the font aswell.
-Helperbird is an extension that overrides all fonts on webpage with the award winning OpenDyslexic font and  changes the page to be more easily read. You can switch it on and off at any time. Helping people with dyslexia. You can now change the size of the font!.
 
-#Features 
-1. Changes the font on the web page to the award winning OpenDyslexic.
-3. Turn it on and Off at anytime.
-4. Change Font Size
+# OpenDyslexic Font - Helperbird - Free
 
-##Upcoming features
-1. Pick the colour of the fonts
+## About
 
+This plugin allows you to toggle on and off the OpenDyslexic font on any website. It does one job and does it well.
 
-Built by a dyslexic programmer with love <3
+Any requests please email at robert_gabriel@outlook.com
 
-##Install
---------------
+Or the GitHub is located here https://github.com/RobertJGabriel/helperbird
 
-- Download the file locally.
-- Open up Google chrome
-- Go the Google Chrome Settings
-- Go to extensions
-- Click enable developer mode.
-- Load unpackaged extensions.
-- Pick the helper bird folder.
+## Setup
 
+1. Install Node.js
+2. `npm i -g gulp yarn mocha` and make sure they're in your PATH
+3. `yarn install` (or npm i if you don't use yarn) to install dependencies
 
-##Honors
---------------
+## Build
+- `gulp` or `gulp compile` to compile, files will be in the build directory
+- `gulp clean` to delete the build directory
+- `gulp watch` to compile and then recompile if any changes are made to the codebase
 
-- 2619 daily users
+## Test
 
+- Go to chrome://extensions/ (Menu > Tools > Extensions)
+- Check the box to enable Developer mode
+- Click Load unpacked extension...
+- Navigate to build directory
+- Make sure to reload the extension and refresh the page you're testing on after any changes to the code
 
-##Screen Shots
--------------
-
-
-![Screenshot 2](https://lh3.googleusercontent.com/esme1y-XvMYik4xrofET0nJOruIMqO607y0tKgatFqEKWV9vPqtGOcPkNHgju66-LFebVQFCsA=s640-h400-e365-rw "Screenshot 2")
+## Screenshot
+![alt text]( https://lh3.googleusercontent.com/w3mIoRilNJFoMcxMiGRCHrNCsxoT41C-wY5x955WKtWOsEi5DmHMmvWp4YL9hs9cY_yj4foz0A=w640-h400-e365 "Logo Title Text 1")

@@ -1,6 +1,6 @@
 {
-  "name": "Helper bird : OpenDyslexic font",
-  "version": "3.0.0",
+  "name": "Helper bird : OpenDyslexic font - Free",
+  "version": "4.0.0",
   "manifest_version": 2,
   "description": "Helper Bird changes the font and style of the website to help with dyslexia by making it easier to read.",
   "browser_action": {
