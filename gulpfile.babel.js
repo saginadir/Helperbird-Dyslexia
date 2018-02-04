@@ -81,6 +81,12 @@ gulp.task('sass', () => {
     .pipe(gulp.dest('dist/styles/'));
 });
 
+gulp.task('sass_app', () => {
+  return gulp.src('app/styles/sass/app.sass')
+    .pipe($.sass().on('error', sass.logError))
+    .pipe(gulp.dest('dist/styles/'));
+});
+
 gulp.task('chromeManifest', () => {
   return gulp.src('app/manifest.json')
     .pipe($.chromeManifest({
@@ -157,7 +163,7 @@ gulp.task('package', () => {
 
 gulp.task('build', cb => {
   runSequence(
-    'lint', 'babel', 'chromeManifest', 'thirdparty', ['html', 'images', 'sass', 'extras'],
+    'lint', 'babel', 'chromeManifest', 'thirdparty', ['html', 'images', 'sass', 'sass_app','extras'],
     'size', cb);
 });
 
